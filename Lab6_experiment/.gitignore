@@ -1,0 +1,13 @@
+build/
+conv2d_baseline_fp32.egg-info/
+conv2d_optim*.egg-info/
+dist/
+pytorch/__pycache__/
+pytorch/acc.txt
+pytorch/best_acc.txt
+pytorch/log.txt
+pytorch/test.py
+pytorch/cifa_10_myConv.py
+pytorch/cifa_10.py
+pytorch/data/*
+test
