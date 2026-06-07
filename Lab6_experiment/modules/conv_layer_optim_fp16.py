@@ -21,11 +21,12 @@ class Conv2DFunction(torch.autograd.Function):
         #input_nhwc = nchw_to_nhwc(input.contiguous())
         output_nhwc = conv2d.forward(input, weight, stride, padding)
         #output = nhwc_to_nchw(output_nhwc.contiguous())
+        ctx.save_for_backward(input, weight, params)
         return output_nhwc
 
     @staticmethod
     def backward(ctx, grad_output):
-        input, weight, params = ctx.saved_variables 
+        input, weight, params = ctx.saved_tensors
         stride = _pair(params[0])
         padding = _pair(params[1])
         grad_input,grad_weight = conv2d.backward(input.contiguous(), grad_output.contiguous(), weight.contiguous(),(stride),(padding))

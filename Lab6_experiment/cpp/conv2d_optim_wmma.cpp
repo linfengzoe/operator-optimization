@@ -53,13 +53,14 @@ std::vector<torch::Tensor> conv2d_backward(
     torch::IntArrayRef stride,
     torch::IntArrayRef padding)
 {
-    auto grad_input  = torch::zeros_like(input);
-    auto grad_weight = torch::zeros_like(weight);
-    return {grad_input, grad_weight};
+    TORCH_CHECK(false,
+        "conv2d_optim_wmma is forward-only: backward gradients are not implemented. "
+        "Use it for inference, or switch to baseline/fp32/fp16 operators for training.");
+    return {torch::Tensor(), torch::Tensor()};
 }
 
 PYBIND11_MODULE(TORCH_EXTENSION_NAME, m)
 {
     m.def("forward",  &conv2d_forward,  "WMMA ImplicitGEMM forward (CUDA)");
-    m.def("backward", &conv2d_backward, "WMMA ImplicitGEMM backward stub");
+    m.def("backward", &conv2d_backward, "WMMA ImplicitGEMM backward (forward-only)");
 }

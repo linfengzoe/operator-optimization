@@ -15,10 +15,24 @@ This project is about how to define a custom convolution layer in PyTorch, and u
 ## Build
 
 ```bash
-$ sh setup.sh
+sh setup.sh
 ```
 
-If you don't have root permission, add environment option `--prefix="/home/user/.conda/envs/yourenvname/`.
+The script runs the unified extension build:
+
+```bash
+python ./pytorch/setup.py build_ext --inplace
+```
+
+It builds all four custom CUDA operators:
+
+- `conv2d_baseline_fp32`
+- `conv2d_optim_fp32`
+- `conv2d_optim_fp16`
+- `conv2d_optim_wmma`
+
+Run the build command from the `Lab6_experiment` project root. The custom
+operators require CUDA tensors and do not provide a CPU fallback.
 
 ## TEST
 
@@ -32,7 +46,19 @@ vim test.py
 
 run inference program
 
-```
-$ python inference.py
+```bash
+python inference.py --model fp32
 ```
 
+Available model choices are `baseline`, `fp32`, `fp16`, and `wmma`.
+
+Useful options:
+
+```bash
+python inference.py --model fp16 --run-times 10 --accuracy-samples 50
+python inference.py --model wmma --plot --save-plots-dir docs/figures/runtime
+python inference.py --model fp32 --batch-sizes 8,16,32,64,128,256,512
+```
+
+The WMMA operator is intended for inference. Its backward path fails loudly
+instead of returning silent zero gradients.
