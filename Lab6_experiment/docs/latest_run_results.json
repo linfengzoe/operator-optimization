@@ -1,0 +1,116 @@
+{
+  "environment": {
+    "date": "2026-06-07",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "driver_cuda": "12.9",
+    "nvcc": "12.9.86",
+    "python": "3.11.9",
+    "torch": "2.2.2+cu121",
+    "torch_cuda": "12.1",
+    "run_directory": "D:/codex_lab6_run",
+    "note": "Project was copied to an ASCII-only path for CUDA extension compilation because ninja failed on the original Chinese path."
+  },
+  "resnet18_cifar10": {
+    "settings": {
+      "accuracy_samples": 50,
+      "run_times": 3,
+      "batch_sizes": [8, 16, 32, 64, 128, 256, 512]
+    },
+    "Baseline_FP32": {
+      "accuracy": 96.0,
+      "correct": 48,
+      "total": 50,
+      "throughput": {
+        "8": 255.37,
+        "16": 287.93,
+        "32": 299.75,
+        "64": 293.31,
+        "128": 257.14,
+        "256": 279.31,
+        "512": 297.62
+      }
+    },
+    "Optim_FP32": {
+      "accuracy": 96.0,
+      "correct": 48,
+      "total": 50,
+      "throughput": {
+        "8": 294.67,
+        "16": 396.27,
+        "32": 445.29,
+        "64": 445.02,
+        "128": 428.33,
+        "256": 435.84,
+        "512": 443.82
+      }
+    },
+    "Optim_FP16": {
+      "accuracy": 94.0,
+      "correct": 47,
+      "total": 50,
+      "throughput": {
+        "8": 360.0,
+        "16": 411.92,
+        "32": 459.99,
+        "64": 410.4,
+        "128": 447.42,
+        "256": 430.36,
+        "512": 454.95
+      }
+    },
+    "Optim_WMMA": {
+      "accuracy": 96.0,
+      "correct": 48,
+      "total": 50,
+      "throughput": {
+        "8": 322.12,
+        "16": 379.94,
+        "32": 388.29,
+        "64": 356.68,
+        "128": 393.9,
+        "256": 389.44,
+        "512": 367.68
+      }
+    }
+  },
+  "tensor_core_gemm": {
+    "compile_command": "nvcc -arch=sm_89 -O3 -o test_mma.exe test_mma.cu",
+    "results": {
+      "128": {
+        "verify": "PASS",
+        "wmma_ms": 1.08336,
+        "basic_ms": 0.48528,
+        "speedup": 0.44794,
+        "errors": "0/16384"
+      },
+      "256": {
+        "verify": "PASS",
+        "wmma_ms": 0.024576,
+        "basic_ms": 0.21504,
+        "speedup": 8.75,
+        "errors": "0/65536"
+      },
+      "512": {
+        "verify": "PASS",
+        "wmma_ms": 0.09216,
+        "basic_ms": 1.61894,
+        "speedup": 17.5667,
+        "errors": "0/262144"
+      },
+      "1024": {
+        "verify": "PASS",
+        "wmma_ms": 0.374784,
+        "basic_ms": 12.5932,
+        "speedup": 33.6011,
+        "errors": "0/1048576"
+      },
+      "2048": {
+        "verify": "PASS",
+        "wmma_ms": 2.87642,
+        "basic_ms": 100.443,
+        "speedup": 34.9195,
+        "errors": "0/4194304"
+      }
+    }
+  }
+}
