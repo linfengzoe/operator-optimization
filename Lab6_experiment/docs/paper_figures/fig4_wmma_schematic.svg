@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="529.867425pt" height="247.248pt" viewBox="0 0 529.867425 247.248" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-06-07T15:46:26.390680</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.7, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 247.248 
+L 529.867425 247.248 
+L 529.867425 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 31.84128 101.270592 
+L 113.46552 101.270592 
+Q 116.03232 101.270592 116.03232 98.942112 
+L 116.03232 62.152128 
+Q 116.03232 59.823648 113.46552 59.823648 
+L 31.84128 59.823648 
+Q 29.27448 59.823648 29.27448 62.152128 
+L 29.27448 98.942112 
+Q 29.27448 101.270592 31.84128 101.270592 
+z
+" clip-path="url(#p8ce06abbfc)" style="fill: #fceedb; stroke: #d9822b; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 162.74808 101.270592 
+L 244.37232 101.270592 
+Q 246.93912 101.270592 246.93912 98.942112 
+L 246.93912 62.152128 
+Q 246.93912 59.823648 244.37232 59.823648 
+L 162.74808 59.823648 
+Q 160.18128 59.823648 160.18128 62.152128 
+L 160.18128 98.942112 
+Q 160.18128 101.270592 162.74808 101.270592 
+z
+" clip-path="url(#p8ce06abbfc)" style="fill: #e8f1fa; stroke: #2a6fbb; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 293.65488 101.270592 
+L 375.27912 101.270592 
+Q 377.84592 101.270592 377.84592 98.942112 
+L 377.84592 62.152128 
+Q 377.84592 59.823648 375.27912 59.823648 
+L 293.65488 59.823648 
+Q 291.08808 59.823648 291.08808 62.152128 
+L 291.08808 98.942112 
+Q 291.08808 101.270592 293.65488 101.270592 
+z
+" clip-path="url(#p8ce06abbfc)" style="fill: #e7f5ef; stroke: #2f9e7e; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 419.42808 101.270592 
+L 501.05232 101.270592 
+Q 503.61912 101.270592 503.61912 98.942112 
+L 503.61912 62.152128 
+Q 503.61912 59.823648 501.05232 59.823648 
+L 419.42808 59.823648 
+Q 416.86128 59.823648 416.86128 62.152128 
+L 416.86128 98.942112 
+Q 416.86128 101.270592 419.42808 101.270592 
+z
+" clip-path="url(#p8ce06abbfc)" style="fill: #f3f6f8; stroke: #6b7785; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 47.24208 187.424352 
+L 157.10112 187.424352 
+Q 159.66792 187.424352 159.66792 185.095872 
+L 159.66792 145.977408 
+Q 159.66792 143.648928 157.10112 143.648928 
+L 47.24208 143.648928 
+Q 44.67528 143.648928 44.67528 145.977408 
+L 44.67528 185.095872 
+Q 44.67528 187.424352 47.24208 187.424352 
+z
+" clip-path="url(#p8ce06abbfc)" style="fill: #ffffff; stroke: #8b95a1; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 211.51728 187.424352 
+L 321.37632 187.424352 
+Q 323.94312 187.424352 323.94312 185.095872 
+L 323.94312 145.977408 
+Q 323.94312 143.648928 321.37632 143.648928 
+L 211.51728 143.648928 
+Q 208.95048 143.648928 208.95048 145.977408 
+L 208.95048 185.095872 
+Q 208.95048 187.424352 211.51728 187.424352 
+z
+" clip-path="url(#p8ce06abbfc)" style="fill: #ffffff; stroke: #8b95a1; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 370.65888 187.424352 
+L 480.51792 187.424352 
+Q 483.08472 187.424352 483.08472 185.095872 
+L 483.08472 145.977408 
+Q 483.08472 143.648928 480.51792 143.648928 
+L 370.65888 143.648928 
+Q 368.09208 143.648928 368.09208 145.977408 
+L 368.09208 185.095872 
+Q 368.09208 187.424352 370.65888 187.424352 
+z
+" clip-path="url(#p8ce06abbfc)" style="fill: #ffffff; stroke: #8b95a1; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1f2933" x="12.3336" y="23.49936" transform="rotate(-0 12.3336 23.49936)">WMMA / Tensor Core 执行示意</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1f2933" transform="translate(46.791056 77.445636)">A fragment</text>
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1f2933" transform="translate(45.767306 88.719542)">16×16 FP16</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1f2933" transform="translate(178.005825 77.445636)">B fragment</text>
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1f2933" transform="translate(176.674106 88.719542)">16×16 FP16</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1f2933" transform="translate(310.967859 77.292354)">mma_sync</text>
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1f2933" transform="translate(307.644187 88.640792)">Tensor Core</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1f2933" transform="translate(434.732231 77.445636)">C fragment</text>
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1f2933" transform="translate(433.354106 88.719542)">16×16 FP32</text>
+   </g>
+   <g id="patch_9">
+    <path d="M 123.009617 80.779968 
+Q 134.258354 80.779968 143.606434 80.779968 
+" style="fill: none; stroke: #7b8794; stroke-width: 1.7; stroke-linecap: round"/>
+    <path d="M 138.006434 77.979968 
+L 143.606434 80.779968 
+L 138.006434 83.579968 
+z
+" style="fill: #7b8794; stroke: #7b8794; stroke-width: 1.7; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 253.916417 80.779968 
+Q 265.165154 80.779968 274.513234 80.779968 
+" style="fill: none; stroke: #7b8794; stroke-width: 1.7; stroke-linecap: round"/>
+    <path d="M 268.913234 77.979968 
+L 274.513234 80.779968 
+L 268.913234 83.579968 
+z
+" style="fill: #7b8794; stroke: #7b8794; stroke-width: 1.7; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 384.823217 80.779968 
+Q 396.071954 80.779968 405.420034 80.779968 
+" style="fill: none; stroke: #7b8794; stroke-width: 1.7; stroke-linecap: round"/>
+    <path d="M 399.820034 77.979968 
+L 405.420034 80.779968 
+L 399.820034 83.579968 
+z
+" style="fill: #7b8794; stroke: #7b8794; stroke-width: 1.7; stroke-linecap: round"/>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 9px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1f2933" transform="translate(80.889412 162.443593)">1 个 Warp</text>
+    <text style="font-size: 9px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1f2933" transform="translate(77.562225 173.673906)">32 线程协同</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 9px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1f2933" transform="translate(233.606644 162.399999)">每次 16×16×16</text>
+    <text style="font-size: 9px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1f2933" transform="translate(243.9468 173.630312)">矩阵乘累加</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 9px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1f2933" transform="translate(389.5884 162.399999)">大矩阵上显著降低</text>
+    <text style="font-size: 9px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; fill: #1f2933" transform="translate(388.889494 173.630312)">FP16 GEMM 时间</text>
+   </g>
+   <g id="patch_12">
+    <path d="M 166.640517 165.53664 
+Q 184.308203 165.53664 200.634249 165.53664 
+" style="fill: none; stroke: #b0b8c0; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 195.034249 162.73664 
+L 200.634249 165.53664 
+L 195.034249 168.33664 
+z
+" style="fill: #b0b8c0; stroke: #b0b8c0; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 330.916657 165.53664 
+Q 346.018908 165.53664 359.779518 165.53664 
+" style="fill: none; stroke: #b0b8c0; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 354.179518 162.73664 
+L 359.779518 165.53664 
+L 354.179518 168.33664 
+z
+" style="fill: #b0b8c0; stroke: #b0b8c0; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 8.7px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #52616b" x="35.4348" y="223.74864" transform="rotate(-0 35.4348 223.74864)">本实验中 WMMA GEMM 微基准全部 PASS；当矩阵规模达到 2048 时，Tensor Core 相对标量 CUDA Core 加速约 34.92×。</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p8ce06abbfc">
+   <rect x="7.2" y="7.2" width="513.36" height="232.848"/>
+  </clipPath>
+ </defs>
+</svg>
